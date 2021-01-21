@@ -43,22 +43,11 @@ this technology for a few reasons:
 
 - Storyboards suffers from a team perspective because it is quite difficult to
   resolve conflicts in Apple's XML format. In addition, it has poor readability
-  and is not as good for dynamic UI's as code.
-- SwiftUI addresses the Storyboard issues, however it is still immature
-  and only supports iOS13+. Beforepay currently supports iOS12+.
+  in GitHub. In addition it is not as good for dynamic UI's as code.
+- SwiftUI addresses the Storyboard issues, however it is still a bit immature
+  and only supports iOS13+.
 
 ### Unit Tests
 
 This architecture is very supportive of unit tests. Added in a small number of
 sample unit tests as a demonstration.
-
-### Completeness
-
-I made a few short-cuts in this assessment in the interest of time:
-
-- I used the standard Apple UINavigationBar. This meant that the title is
-  center aligned rather than left aligned.
-- I used UIPageViewController to house the carousel. This meant that I couldn't
-  partially reveal the subsequent slide, and that the page indicator lacks
-  the nice animation in the mockup.
-- **Didn't include the institution icons, as I couldn't find them in InVision**.
